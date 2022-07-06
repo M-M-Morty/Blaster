@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "BlasterCharacter.generated.h"
+#include "Blaster/BlasterTypes/TurningInPlace.h"
 
 UCLASS()
 class BLASTER_API ABlasterCharacter : public ACharacter
@@ -58,6 +59,7 @@ private:
 	float AO_Pitch;
 	FRotator StartingAimRotation;
 
+	ETurningInPlace TurningInPlace;
 public:
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();

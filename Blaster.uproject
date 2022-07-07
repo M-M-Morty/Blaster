@@ -34,6 +34,10 @@
 				"Mac",
 				"Linux"
 			]
+		},
+		{
+			"Name": "RenderDocPlugin",
+			"Enabled": true
 		}
 	]
 }

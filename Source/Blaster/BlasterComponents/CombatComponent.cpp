@@ -1,5 +1,4 @@
 
-
 #include "CombatComponent.h"
 #include "Blaster/Character/BlasterCharacter.h"
 #include "Blaster/Weapon//Weapon.h"
@@ -92,13 +91,10 @@ void UCombatComponent::MulticastFire_Implementation()
 }
 
 
-
-
 void UCombatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
-
 
 
 void UCombatComponent::EquipWeapon(AWeapon* WeaponToEquip)

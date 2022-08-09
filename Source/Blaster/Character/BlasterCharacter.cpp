@@ -15,7 +15,7 @@
 #include"BlasterAnimInstance.h"
 
 
-ABlasterCharacter::ABlasterCharacter()
+ABlasterCharacter::ABlasterCharacter()  
 {
  	
 	PrimaryActorTick.bCanEverTick = true;
